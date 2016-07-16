@@ -3,7 +3,7 @@ language: ruby
 rvm:
 - 2.0
 - 2.1
-install: "travis_retry script/unbundle ; travis_retry script/bootstrap"
+## DISABLED || install: "travis_retry script/unbundle ; travis_retry script/bootstrap"
 before_script:
   - chmod a+x script/benchmark
   - chmod a+x script/bootstrap
