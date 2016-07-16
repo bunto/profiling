@@ -17,7 +17,7 @@ rm -rf $TEST_DIR
 $BUNTO new $TEST_DIR
 run_profile $TEST_DIR
 
-echo 3. Now, bunto.github.io
+echo 3. Now, bunto.github.io.
 
 rm -rf $TEST_DIR
 git clone --quiet git://github.com/bunto/bunto.git $TEST_DIR && \
