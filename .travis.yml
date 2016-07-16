@@ -1,8 +1,8 @@
 # Travis CI
 language: ruby
 rvm:
-- 2.0
-- 2.1
+- 2.3
+- 2.2
 ## DISABLED || install: "travis_retry script/unbundle ; travis_retry script/bootstrap"
 before_script:
   - chmod a+x script/benchmark
